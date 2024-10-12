@@ -29,3 +29,6 @@ install(PROGRAMS
     scripts/constant_control.py
     DESTINATION lib/${PROJECT_NAME}
 )
+
+install(DIRECTORY launch rviz
+        DESTINATION share/${PROJECT_NAME})
