@@ -14,7 +14,7 @@ class Message(Node):
         #self.msg_sub = self.create_subscription(String, "/msg_channel", 10)
 
     def msg_callback(self) -> None:
-        msg = String()
+'wtf        msg = String()
         msg.data = "sending constant control"
 
         self.msg_pub.publish(msg)
